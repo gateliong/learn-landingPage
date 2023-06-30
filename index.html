@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan Mengasah</title>
+    <title>learn | landingPage</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="learn-landingPage">
+	<meta name="description" content="My portfolio miftah parid 2023">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/img/co.png">
 
     <!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Rubik:wght@400;500;700&family=Spartan:wght@400;700;900&display=swap">
@@ -20,12 +26,57 @@
 </head>
 <body>
 
+    <!-- Offcanvas start START -->
+    <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasStart" aria-labelledby="offcanvasStart" style="background-image:url(assets/images/bg/pattern/03.png); background-position: center left; background-size: cover;">
+        <div class="offcanvas-header">
+        <a class="ms-auto btn btn-primary btn-round zoom-hover" data-bs-dismiss="offcanvas" aria-label="Close">
+            <i class="bi-emoji-smile p-0"></i>
+        </a>
+    </div>
+        <div class="offcanvas-body vh-lg-100 d-flex align-items-start flex-column px-5 px-md-6">
+            <!-- Offcanvas inner START -->
+            <ul class="nav dropdown-toggle-start-icon d-block flex-column mb-5">
+                <li class="nav-item display-6 h5 position-relative">
+                    <a href="#" class="nav-link text-white-stroke d-block">Home</a>
+                    <!-- Offcanvas dropdown START -->
+                    <a class="dropdown-toggle collapsed" data-bs-toggle="collapse" href="#home-dropdown-collapse" role="button" aria-expanded="false" aria-controls="home-dropdown-collapse"></a>
+                    <li class="collapse" id="home-dropdown-collapse">
+                        <ul class="nav flex-column w-100 pb-4 pe-0 pe-lg-5">
+                            <li class="nav-item"> <a class="nav-link text-body" href="index.html">Classic Default</a> </li>
+                            <li class="nav-item"> <a class="nav-link text-body" href="index-10.html">Personal Portfolio</a> </li>
+                        </ul>
+                    </li>
+                    <!-- Offcanvas dropdown END -->
+                <li class="nav-item display-6 h5">
+                    <a class="nav-link text-white-stroke" href="#">About</a>
+                </li>
+                <li class="nav-item display-6 h5">
+                    <a class="nav-link text-white-stroke" href="#">Work</a>
+                </li>
+                <li class="nav-item display-6 h5">
+                    <a class="nav-link text-white-stroke" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div class="mt-auto mb-5">
+                <a href="#" class="font-heading text-white text-primary-hover d-block mb-3">hello@miftah.com</a>
+                <a href="#" class="font-heading text-white text-primary-hover">+(251) 854-6308</a>
+            </div>
+            <!-- Offcanvas inner END -->
+        </div>
+    </div>
+    <!-- Offcanvas start END -->
+
     <header class="p-2 bayangan navbar-sticky-bg-dark navbar-sticky text-white bg-dark">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <img class="my-1 mx-3" src="assets/img/svg.png" alt="photo" style="width: 45px;">
-            </a>
+              <!--logo-->
+              <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <img class="my-1 mx-3" src="assets/img/svg.png" alt="photo" style="width: 45px;">
+                </a>
+                <!-- Nav Opener-->
+                <a class="d-lg-none ms-10 text-primary-hover me-4" data-bs-toggle="offcanvas" href="#offcanvasStart" role="button" aria-controls="offcanvasStart">
+                    <i class="bi bi-list display-8 align-middle" data-bs-target="#offcanvasStart"></i>
+                </a>
             <ul class="d-none text-dark d-lg-flex nav mx-2 col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
@@ -357,7 +408,7 @@
             <!-- Footer copyright START -->
             <div class="row align-items-center justify-content-md-between py-4">
                 <div class="col-md-6">
-                    <div class="text-center text-md-start">©2022 <a href="https://www.webestica.com/" target="_blank">Webestica</a>. All rights reserved
+                    <div class="text-center text-md-start"><script>document.write(new Date().getFullYear());</script><a href="#" target="_blank">learn-landingPage</a>. All rights reserved
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -376,6 +427,9 @@
 
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/js/demo.js"></script> -->
+    <!-- <script src="assets/js/tiny-slider.js"></script> -->
+    <script src="assets/js/TweenMax.min.js"></script>
 
     <!-- Template Functions -->
     <script src="assets/js/function.js"></script>
